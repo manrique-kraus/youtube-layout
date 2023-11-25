@@ -1,0 +1,64 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #F7F7F7;
+    max-width: 900px;
+    display: grid;
+    grid-template-areas: "video-main ad"
+                         "video-main suggested";
+    grid-template-columns: 1fr 271px;
+    grid-template-rows: 56px 1fr;
+    padding: 35px;
+    gap: 15px;
+}
+
+.video-main {
+    grid-area: video-main;
+}
+
+.ad {
+    grid-area: ad;
+}
+
+.suggested {
+    grid-area: suggested;
+}
+
+.video-main img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.video-main .viwes {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.video-main .title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.ad img{
+    width: 100%;
+}
+.video {
+    margin-bottom: 15px;
+}
+
+.video .title {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.video p {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.suggested .video {
+    display: flex;
+    gap: 5px;
+}
